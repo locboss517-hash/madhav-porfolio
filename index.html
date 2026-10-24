@@ -1,0 +1,1373 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Personal Portfolio of Madhav Acharya - BBA Student & Aspiring Business Professional specializing in Business Strategy, Marketing, Finance, and Management." />
+  <meta name="author" content="Madhav Acharya" />
+  <title>Madhav Acharya | BBA Student & Aspiring Business Professional</title>
+
+  <!-- Google Fonts: Plus Jakarta Sans for high-readability corporate typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Core Stylesheet -->
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- ==========================================================================
+       NAVIGATION BAR (Sticky, Responsive, Dark/Light Mode)
+       ========================================================================== -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#home" class="nav-brand" aria-label="Madhav Acharya Home">
+        <div class="brand-monogram">MA</div>
+        <div class="brand-text">
+          <span class="brand-name">Madhav Acharya</span>
+          <span class="brand-sub">BBA Portfolio</span>
+        </div>
+      </a>
+
+      <!-- Desktop & Mobile Nav Links -->
+      <nav class="nav-menu" id="navMenu">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#education" class="nav-link">Education</a>
+        <a href="#achievements" class="nav-link">Achievements</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <!-- Action items: Theme Toggle & Mobile Hamburger -->
+      <div class="nav-actions">
+        <button class="theme-toggle-btn" id="themeToggleBtn" aria-label="Toggle Dark / Light Theme" title="Toggle Theme">
+          <!-- Sun Icon (shown in dark mode) -->
+          <svg class="sun-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+          <!-- Moon Icon (shown in light mode) -->
+          <svg class="moon-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+
+        <a href="#contact" class="btn btn-sm btn-gold d-none-mobile">
+          Let's Connect
+        </a>
+
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle Mobile Menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ==========================================================================
+         1. HOME SECTION
+         ========================================================================== -->
+    <section class="hero-section" id="home">
+      <!-- Background Decorative Elements -->
+      <div class="hero-bg-shapes">
+        <div class="hero-shape-1"></div>
+        <div class="hero-shape-2"></div>
+      </div>
+
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <!-- Status Pill -->
+          <div class="hero-status-pill">
+            <span class="status-dot"></span>
+            <span>BBA Student • Open to Business & Management Internships</span>
+          </div>
+
+          <span class="hero-greeting">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"></path>
+            </svg>
+            Welcome to my personal portfolio
+          </span>
+
+          <h1 class="hero-name">Madhav Acharya</h1>
+
+          <div class="hero-title-badge">
+            <span>BBA Student</span>
+            <span style="color: var(--gold-primary);">|</span>
+            <span class="highlight">Aspiring Business Professional</span>
+          </div>
+
+          <p class="hero-desc">
+            Passionate about understanding how modern enterprises grow, compete, and deliver value. With a strong academic foundation in <strong>business management</strong>, <strong>data-driven marketing</strong>, <strong>financial analysis</strong>, and <strong>strategic planning</strong>, I am eager to apply analytical thinking and leadership to solve real-world organizational challenges.
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="#projects" class="btn btn-primary">
+              <span>View My Work</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+            
+            <a href="#contact" class="btn btn-secondary">
+              <span>Contact Me</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+            </a>
+
+            <button class="btn btn-outline action-download-resume" title="Download Madhav Acharya CV / Resume">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                <polyline points="7 10 12 15 17 10"></polyline>
+                <line x1="12" y1="15" x2="12" y2="3"></line>
+              </svg>
+              <span>Download CV</span>
+            </button>
+          </div>
+
+          <!-- Hero Metrics Bar -->
+          <div class="hero-stats">
+            <div class="stat-item">
+              <span class="stat-number">5+</span>
+              <span class="stat-label">Academic Case Studies</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">12+</span>
+              <span class="stat-label">Core Business Skills</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">100%</span>
+              <span class="stat-label">Commitment to Learning</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Profile Image Placeholder / Graphic Card -->
+        <div class="hero-image-wrapper">
+          <div class="profile-card">
+            <!-- Floating micro-badges -->
+            <div class="floating-badge floating-badge-1">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+              </svg>
+              <span>Market & Strategy</span>
+            </div>
+
+            <div class="floating-badge floating-badge-2">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="12" y1="1" x2="12" y2="23"></line>
+                <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+              </svg>
+              <span>Financial Analysis</span>
+            </div>
+
+            <div class="profile-image-container">
+              <!-- TO USE YOUR REAL PHOTO:
+                   1. Place your headshot photo in an "assets" folder, e.g. "assets/madhav-photo.jpg"
+                   2. Replace this SVG and placeholder block with:
+                      <img src="assets/madhav-photo.jpg" alt="Madhav Acharya - BBA Student" class="profile-avatar-img" />
+              -->
+              <!-- Professional Silhouette SVG Avatar -->
+              <svg class="profile-avatar-svg" viewBox="0 0 200 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="100" cy="72" r="42" fill="#E2E8F0" opacity="0.9" />
+                <path d="M100 122C64.6538 122 36 150.654 36 186V210H164V186C164 150.654 135.346 122 100 122Z" fill="#CBD5E1" opacity="0.9" />
+                <!-- Subtle gold tie/accent detail -->
+                <polygon points="100,125 107,140 100,180 93,140" fill="#D4AF37" />
+                <circle cx="100" cy="72" r="44" stroke="#D4AF37" stroke-width="2" stroke-dasharray="4 4" />
+              </svg>
+
+              <!-- Placeholder swap guide badge -->
+              <div class="profile-placeholder-text">
+                <span>Profile Image Placeholder</span>
+                <small>Replace with Madhav's formal photo</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         2. ABOUT ME SECTION
+         ========================================================================== -->
+    <section class="section section-alternate" id="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+              <circle cx="12" cy="7" r="4"></circle>
+            </svg>
+            About Me
+          </span>
+          <h2 class="section-title">Driven by Strategy. Inspired by Growth.</h2>
+          <p class="section-subtitle">
+            A proactive business student bridging classroom management concepts with actionable analytical execution.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <!-- Text Narrative & Pillars -->
+          <div class="about-text-content">
+            <p>
+              I am a motivated <strong>Bachelor of Business Administration (BBA)</strong> student with a profound passion for <strong>business strategy</strong>, <strong>entrepreneurship</strong>, <strong>marketing</strong>, <strong>finance</strong>, and <strong>organizational leadership</strong>.
+            </p>
+            <p>
+              Throughout my academic journey, I have cultivated strong <strong>verbal and written communication skills</strong>, sharp <strong>problem-solving capabilities</strong>, and an insatiable <strong>willingness to learn</strong>. Whether conducting in-depth consumer research, formulating structured business models, or evaluating balance sheets in Excel, I focus on turning complex data into clear, actionable business insights.
+            </p>
+            <p>
+              My goal is to step into dynamic corporate environments where I can contribute to cross-functional projects, learn from seasoned industry leaders, and build sustainable value.
+            </p>
+
+            <!-- Core Pillars -->
+            <div class="about-pillars">
+              <div class="pillar-card">
+                <div class="pillar-icon-box">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path>
+                    <path d="M2 12h20"></path>
+                  </svg>
+                </div>
+                <h4 class="pillar-title">Strategic Vision</h4>
+                <p class="pillar-desc">Analyzing market dynamics, industry forces, and competitor positioning to make sound decisions.</p>
+              </div>
+
+              <div class="pillar-card">
+                <div class="pillar-icon-box">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="18" y1="20" x2="18" y2="10"></line>
+                    <line x1="12" y1="20" x2="12" y2="4"></line>
+                    <line x1="6" y1="20" x2="6" y2="14"></line>
+                  </svg>
+                </div>
+                <h4 class="pillar-title">Analytical Mindset</h4>
+                <p class="pillar-desc">Leveraging quantitative data, financial metrics, and structured research to validate assumptions.</p>
+              </div>
+
+              <div class="pillar-card">
+                <div class="pillar-icon-box">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                    <circle cx="9" cy="7" r="4"></circle>
+                    <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                    <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                  </svg>
+                </div>
+                <h4 class="pillar-title">Collaborative Leadership</h4>
+                <p class="pillar-desc">Uniting diverse team perspectives, delegating effectively, and driving projects to timely delivery.</p>
+              </div>
+
+              <div class="pillar-card">
+                <div class="pillar-icon-box">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+                  </svg>
+                </div>
+                <h4 class="pillar-title">Growth Orientation</h4>
+                <p class="pillar-desc">Continuously expanding skills in modern analytics, digital marketing tools, and business frameworks.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Quick Information Card -->
+          <div class="about-info-box">
+            <h3 class="info-box-title">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--gold-primary);">
+                <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                <line x1="8" y1="21" x2="16" y2="21"></line>
+                <line x1="12" y1="17" x2="12" y2="21"></line>
+              </svg>
+              Professional Profile Snapshot
+            </h3>
+
+            <div class="info-list">
+              <div class="info-row">
+                <span class="info-label">Current Degree</span>
+                <span class="info-value">BBA (Bachelor of Business Admin)</span>
+              </div>
+              <div class="info-row">
+                <span class="info-label">Specialization Focus</span>
+                <span class="info-value">Management, Marketing & Finance</span>
+              </div>
+              <div class="info-row">
+                <span class="info-label">Career Objective</span>
+                <span class="info-value">Business Analyst / Management Trainee</span>
+              </div>
+              <div class="info-row">
+                <span class="info-label">Availability</span>
+                <span class="info-badge-highlight">Summer & Fall Internships</span>
+              </div>
+              <div class="info-row">
+                <span class="info-label">Preferred Locations</span>
+                <span class="info-value">Open to Remote / On-Site</span>
+              </div>
+              <div class="info-row">
+                <span class="info-label">Core Soft Skills</span>
+                <span class="info-value">Leadership, Critical Thinking, Adaptability</span>
+              </div>
+              <div class="info-row">
+                <span class="info-label">Primary Languages</span>
+                <span class="info-value">English, Hindi</span>
+              </div>
+            </div>
+
+            <div style="margin-top: 2rem;">
+              <a href="#contact" class="btn btn-primary" style="width: 100%;">
+                <span>Discuss an Opportunity</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         3. SKILLS SECTION
+         ========================================================================== -->
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+            </svg>
+            Competencies & Toolset
+          </span>
+          <h2 class="section-title">Core Management & Business Skills</h2>
+          <p class="section-subtitle">
+            A comprehensive blend of theoretical business foundations, analytical tool proficiency, and interpersonal leadership competencies.
+          </p>
+        </div>
+
+        <!-- Filter navigation buttons -->
+        <div class="skills-filter-nav">
+          <button class="filter-btn active" data-filter="all">All Skills (12)</button>
+          <button class="filter-btn" data-filter="management">Management & Strategy</button>
+          <button class="filter-btn" data-filter="marketing">Marketing & Research</button>
+          <button class="filter-btn" data-filter="finance">Finance & Analytics</button>
+          <button class="filter-btn" data-filter="tools">Software & Soft Skills</button>
+        </div>
+
+        <!-- 12 Skills Grid with Icons -->
+        <div class="skills-grid">
+
+          <!-- 1. Business Management -->
+          <div class="skill-card" data-category="management">
+            <div class="skill-header">
+              <div class="skill-icon-wrapper">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                  <polyline points="9 22 9 12 15 12 15 22"></polyline>
+                </svg>
+              </div>
+              <div class="skill-title-group">
+                <h3 class="skill-name">Business Management</h3>
+                <span class="skill-category">Core Business</span>
+              </div>
+            </div>
+            <p class="skill-desc">
+              Understanding operational workflows, organizational structures, resource planning, and effective project execution.
+            </p>
+            <div class="skill-footer">
+              <span style="color: var(--text-muted); font-size: 0.75rem;">Proficiency</span>
+              <span class="skill-level-badge">Advanced</span>
+            </div>
+          </div>
+
+          <!-- 2. Marketing Fundamentals -->
+          <div class="skill-card" data-category="marketing">
+            <div class="skill-header">
+              <div class="skill-icon-wrapper">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21.21 15.89A10 10 0 1 1 8 2.83"></path>
+                  <path d="M22 12A10 10 0 0 0 12 2v10z"></path>
+                </svg>
+              </div>
+              <div class="skill-title-group">
+                <h3 class="skill-name">Marketing Fundamentals</h3>
+                <span class="skill-category">Marketing</span>
+              </div>
+            </div>
+            <p class="skill-desc">
+              Grasping the 4 Ps of marketing, brand positioning, customer segmentation, value proposition design, and campaign planning.
+            </p>
+            <div class="skill-footer">
+              <span style="color: var(--text-muted); font-size: 0.75rem;">Proficiency</span>
+              <span class="skill-level-badge">Proficient</span>
+            </div>
+          </div>
+
+          <!-- 3. Financial Analysis Basics -->
+          <div class="skill-card" data-category="finance">
+            <div class="skill-header">
+              <div class="skill-icon-wrapper">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="12" y1="1" x2="12" y2="23"></line>
+                  <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+                </svg>
+              </div>
+              <div class="skill-title-group">
+                <h3 class="skill-name">Financial Analysis Basics</h3>
+                <span class="skill-category">Finance</span>
+              </div>
+            </div>
+            <p class="skill-desc">
+              Evaluating balance sheets, income statements, profitability ratios, working capital cycles, and cash flow health.
+            </p>
+            <div class="skill-footer">
+              <span style="color: var(--text-muted); font-size: 0.75rem;">Proficiency</span>
+              <span class="skill-level-badge">Foundational</span>
+            </div>
+          </div>
+
+          <!-- 4. Market Research -->
+          <div class="skill-card" data-category="marketing">
+            <div class="skill-header">
+              <div class="skill-icon-wrapper">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="11" cy="11" r="8"></circle>
+                  <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                </svg>
+              </div>
+              <div class="skill-title-group">
+                <h3 class="skill-name">Market Research</h3>
+                <span class="skill-category">Research</span>
+              </div>
+            </div>
+            <p class="skill-desc">
+              Designing customer surveys, conducting competitive landscape assessments, and deriving insights into buying behavior.
+            </p>
+            <div class="skill-footer">
+              <span style="color: var(--text-muted); font-size: 0.75rem;">Proficiency</span>
+              <span class="skill-level-badge">Advanced</span>
+            </div>
+          </div>
+
+          <!-- 5. Business Communication -->
+          <div class="skill-card" data-category="tools">
+            <div class="skill-header">
+              <div class="skill-icon-wrapper">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                </svg>
+              </div>
+              <div class="skill-title-group">
+                <h3 class="skill-name">Business Communication</h3>
+                <span class="skill-category">Soft Skills</span>
+              </div>
+            </div>
+            <p class="skill-desc">
+              Drafting executive summaries, professional business correspondence, stakeholder reports, and persuasive proposals.
+            </p>
+            <div class="skill-footer">
+              <span style="color: var(--text-muted); font-size: 0.75rem;">Proficiency</span>
+              <span class="skill-level-badge">Advanced</span>
+            </div>
+          </div>
+
+          <!-- 6. Leadership and Teamwork -->
+          <div class="skill-card" data-category="tools">
+            <div class="skill-header">
+              <div class="skill-icon-wrapper">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
+                  <circle cx="9" cy="7" r="4"></circle>
+                  <path d="M22 21v-2a4 4 0 0 0-3-3.87"></path>
+                  <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                </svg>
+              </div>
+              <div class="skill-title-group">
+                <h3 class="skill-name">Leadership and Teamwork</h3>
+                <span class="skill-category">Soft Skills</span>
+              </div>
+            </div>
+            <p class="skill-desc">
+              Leading student project groups, resolving conflicts, encouraging collaborative problem-solving, and achieving shared goals.
+            </p>
+            <div class="skill-footer">
+              <span style="color: var(--text-muted); font-size: 0.75rem;">Proficiency</span>
+              <span class="skill-level-badge">Proficient</span>
+            </div>
+          </div>
+
+          <!-- 7. Problem-Solving -->
+          <div class="skill-card" data-category="management">
+            <div class="skill-header">
+              <div class="skill-icon-wrapper">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path>
+                </svg>
+              </div>
+              <div class="skill-title-group">
+                <h3 class="skill-name">Problem-Solving</h3>
+                <span class="skill-category">Analytical</span>
+              </div>
+            </div>
+            <p class="skill-desc">
+              Root-cause diagnosis, structured issue trees, business case evaluation, and pragmatic solution formulation.
+            </p>
+            <div class="skill-footer">
+              <span style="color: var(--text-muted); font-size: 0.75rem;">Proficiency</span>
+              <span class="skill-level-badge">Advanced</span>
+            </div>
+          </div>
+
+          <!-- 8. Microsoft Excel -->
+          <div class="skill-card" data-category="tools">
+            <div class="skill-header">
+              <div class="skill-icon-wrapper">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                  <line x1="3" y1="9" x2="21" y2="9"></line>
+                  <line x1="3" y1="15" x2="21" y2="15"></line>
+                  <line x1="9" y1="3" x2="9" y2="21"></line>
+                  <line x1="15" y1="3" x2="15" y2="21"></line>
+                </svg>
+              </div>
+              <div class="skill-title-group">
+                <h3 class="skill-name">Microsoft Excel</h3>
+                <span class="skill-category">Software</span>
+              </div>
+            </div>
+            <p class="skill-desc">
+              Pivot tables, VLOOKUP/XLOOKUP, conditional formulas, financial modeling templates, and dynamic data visualization.
+            </p>
+            <div class="skill-footer">
+              <span style="color: var(--text-muted); font-size: 0.75rem;">Proficiency</span>
+              <span class="skill-level-badge">Proficient</span>
+            </div>
+          </div>
+
+          <!-- 9. PowerPoint Presentations -->
+          <div class="skill-card" data-category="tools">
+            <div class="skill-header">
+              <div class="skill-icon-wrapper">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M2 3h20v14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V3z"></path>
+                  <line x1="8" y1="21" x2="16" y2="21"></line>
+                  <line x1="12" y1="17" x2="12" y2="21"></line>
+                </svg>
+              </div>
+              <div class="skill-title-group">
+                <h3 class="skill-name">PowerPoint Presentations</h3>
+                <span class="skill-category">Software</span>
+              </div>
+            </div>
+            <p class="skill-desc">
+              Designing professional executive decks, visual storytelling, business pitches, and academic case analyses.
+            </p>
+            <div class="skill-footer">
+              <span style="color: var(--text-muted); font-size: 0.75rem;">Proficiency</span>
+              <span class="skill-level-badge">Advanced</span>
+            </div>
+          </div>
+
+          <!-- 10. Data Analysis Basics -->
+          <div class="skill-card" data-category="finance">
+            <div class="skill-header">
+              <div class="skill-icon-wrapper">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="18" y1="20" x2="18" y2="10"></line>
+                  <line x1="12" y1="20" x2="12" y2="4"></line>
+                  <line x1="6" y1="20" x2="6" y2="14"></line>
+                </svg>
+              </div>
+              <div class="skill-title-group">
+                <h3 class="skill-name">Data Analysis Basics</h3>
+                <span class="skill-category">Analytics</span>
+              </div>
+            </div>
+            <p class="skill-desc">
+              Interpreting descriptive statistics, identifying trends, measuring variance, and converting datasets into business decisions.
+            </p>
+            <div class="skill-footer">
+              <span style="color: var(--text-muted); font-size: 0.75rem;">Proficiency</span>
+              <span class="skill-level-badge">Proficient</span>
+            </div>
+          </div>
+
+          <!-- 11. Digital Marketing -->
+          <div class="skill-card" data-category="marketing">
+            <div class="skill-header">
+              <div class="skill-icon-wrapper">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path>
+                  <path d="M13.73 21a2 2 0 0 1-3.46 0"></path>
+                </svg>
+              </div>
+              <div class="skill-title-group">
+                <h3 class="skill-name">Digital Marketing</h3>
+                <span class="skill-category">Marketing</span>
+              </div>
+            </div>
+            <p class="skill-desc">
+              Social media marketing principles, audience targeting, search engine optimization (SEO) basics, and content funnel strategy.
+            </p>
+            <div class="skill-footer">
+              <span style="color: var(--text-muted); font-size: 0.75rem;">Proficiency</span>
+              <span class="skill-level-badge">Proficient</span>
+            </div>
+          </div>
+
+          <!-- 12. Strategic Planning -->
+          <div class="skill-card" data-category="management">
+            <div class="skill-header">
+              <div class="skill-icon-wrapper">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polygon points="1 6 1 22 8 18 16 22 23 18 23 2 16 6 8 2 1 6"></polygon>
+                  <line x1="8" y1="2" x2="8" y2="18"></line>
+                  <line x1="16" y1="6" x2="16" y2="22"></line>
+                </svg>
+              </div>
+              <div class="skill-title-group">
+                <h3 class="skill-name">Strategic Planning</h3>
+                <span class="skill-category">Strategy</span>
+              </div>
+            </div>
+            <p class="skill-desc">
+              Applying SWOT matrices, Porter's Five Forces, BCG matrices, and setting measurable business OKRs for sustained growth.
+            </p>
+            <div class="skill-footer">
+              <span style="color: var(--text-muted); font-size: 0.75rem;">Proficiency</span>
+              <span class="skill-level-badge">Advanced</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         4. PROJECTS SECTION
+         ========================================================================== -->
+    <section class="section section-alternate" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+            </svg>
+            Academic & Practical Work
+          </span>
+          <h2 class="section-title">Featured Business Projects</h2>
+          <p class="section-subtitle">
+            Demonstrating applied business strategy, rigorous market analysis, financial modeling, and creative marketing concepts.
+          </p>
+        </div>
+
+        <!-- Sample Disclaimer Banner -->
+        <div class="placeholder-banner">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="10"></circle>
+            <line x1="12" y1="8" x2="12" y2="12"></line>
+            <line x1="12" y1="16" x2="12.01" y2="16"></line>
+          </svg>
+          <div>
+            <strong>Sample Academic Projects:</strong> The projects displayed below represent realistic BBA coursework models and can be seamlessly updated with Madhav's specific university assignments and deliverables.
+          </div>
+        </div>
+
+        <div class="projects-grid">
+
+          <!-- PROJECT 1: Market Research and Consumer Behaviour -->
+          <article class="project-card">
+            <div class="project-header-bar"></div>
+            <div class="project-body">
+              <div class="project-meta">
+                <div class="project-icon-badge">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <path d="M16 12l-4-4-4 4M12 8v8"></path>
+                  </svg>
+                </div>
+                <span class="project-sample-tag">Sample Case Study</span>
+              </div>
+
+              <h3 class="project-title">Market Research and Consumer Behaviour</h3>
+              <p class="project-desc">
+                Conducted an in-depth empirical investigation analyzing customer purchasing patterns, price elasticity, and brand loyalty trends within the retail FMCG sector.
+              </p>
+
+              <div class="project-skills-list">
+                <span class="project-skill-tag">Market Research</span>
+                <span class="project-skill-tag">Data Analysis</span>
+                <span class="project-skill-tag">Consumer Behaviour</span>
+              </div>
+
+              <div class="project-footer">
+                <button class="project-btn-details" data-project="1" aria-label="View Market Research case study details">
+                  <span>View Full Case Study</span>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 2: Business Plan for a Startup -->
+          <article class="project-card">
+            <div class="project-header-bar"></div>
+            <div class="project-body">
+              <div class="project-meta">
+                <div class="project-icon-badge">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
+                    <path d="M2 17l10 5 10-5"></path>
+                    <path d="M2 12l10 5 10-5"></path>
+                  </svg>
+                </div>
+                <span class="project-sample-tag">Sample Business Plan</span>
+              </div>
+
+              <h3 class="project-title">Business Plan for a Startup</h3>
+              <p class="project-desc">
+                Developed an end-to-end commercial startup model for a sustainable student subscription venture, complete with value propositions, market sizing, and a 3-year cash flow forecast.
+              </p>
+
+              <div class="project-skills-list">
+                <span class="project-skill-tag">Entrepreneurship</span>
+                <span class="project-skill-tag">Business Planning</span>
+                <span class="project-skill-tag">Strategic Thinking</span>
+              </div>
+
+              <div class="project-footer">
+                <button class="project-btn-details" data-project="2" aria-label="View Business Plan details">
+                  <span>View Full Case Study</span>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 3: Digital Marketing Strategy -->
+          <article class="project-card">
+            <div class="project-header-bar"></div>
+            <div class="project-body">
+              <div class="project-meta">
+                <div class="project-icon-badge">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                    <polyline points="2 17 12 22 22 17"></polyline>
+                  </svg>
+                </div>
+                <span class="project-sample-tag">Sample Marketing Plan</span>
+              </div>
+
+              <h3 class="project-title">Digital Marketing Strategy</h3>
+              <p class="project-desc">
+                Created a multi-touchpoint marketing campaign utilizing targeted social media advertising, content marketing funnels, and demographic segmentation to drive conversions.
+              </p>
+
+              <div class="project-skills-list">
+                <span class="project-skill-tag">Digital Marketing</span>
+                <span class="project-skill-tag">Branding</span>
+                <span class="project-skill-tag">Marketing Strategy</span>
+              </div>
+
+              <div class="project-footer">
+                <button class="project-btn-details" data-project="3" aria-label="View Digital Marketing strategy details">
+                  <span>View Full Case Study</span>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 4: Financial Analysis of a Company -->
+          <article class="project-card">
+            <div class="project-header-bar"></div>
+            <div class="project-body">
+              <div class="project-meta">
+                <div class="project-icon-badge">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                    <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                  </svg>
+                </div>
+                <span class="project-sample-tag">Sample Financial Report</span>
+              </div>
+
+              <h3 class="project-title">Financial Analysis of a Company</h3>
+              <p class="project-desc">
+                Conducted comprehensive financial statement analysis across 3 fiscal years, calculating key liquidity, solvency, and profitability ratios with DuPont decomposition in Excel.
+              </p>
+
+              <div class="project-skills-list">
+                <span class="project-skill-tag">Microsoft Excel</span>
+                <span class="project-skill-tag">Financial Analysis</span>
+                <span class="project-skill-tag">Data Interpretation</span>
+              </div>
+
+              <div class="project-footer">
+                <button class="project-btn-details" data-project="4" aria-label="View Financial Analysis details">
+                  <span>View Full Case Study</span>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 5: SWOT Analysis of a Business -->
+          <article class="project-card">
+            <div class="project-header-bar"></div>
+            <div class="project-body">
+              <div class="project-meta">
+                <div class="project-icon-badge">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                  </svg>
+                </div>
+                <span class="project-sample-tag">Sample Strategic Audit</span>
+              </div>
+
+              <h3 class="project-title">SWOT Analysis of a Business</h3>
+              <p class="project-desc">
+                Executed a structured strategic audit of an established commercial brand using Porter's Five Forces, PESTEL, and SWOT/TOWS matrices to formulate defensive and offensive growth plans.
+              </p>
+
+              <div class="project-skills-list">
+                <span class="project-skill-tag">Business Strategy</span>
+                <span class="project-skill-tag">Critical Thinking</span>
+                <span class="project-skill-tag">Research</span>
+              </div>
+
+              <div class="project-footer">
+                <button class="project-btn-details" data-project="5" aria-label="View SWOT Analysis details">
+                  <span>View Full Case Study</span>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         5. EDUCATION SECTION
+         ========================================================================== -->
+    <section class="section" id="education">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+              <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+            </svg>
+            Academic Background
+          </span>
+          <h2 class="section-title">Education & Academic Coursework</h2>
+          <p class="section-subtitle">
+            Solid foundations in managerial decision-making, corporate finance, market dynamics, and organizational leadership.
+          </p>
+        </div>
+
+        <div class="education-card">
+          <div class="edu-header">
+            <div class="edu-main-info">
+              <div class="edu-icon-badge">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                  <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                </svg>
+              </div>
+              <div>
+                <h3 class="edu-degree">Bachelor of Business Administration (BBA)</h3>
+                <div class="edu-institution">
+                  <!-- EDITABLE PLACEHOLDER -->
+                  <span>[Add College / University Name]</span>
+                  <span class="edu-badge-editable">Click to Edit in HTML</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="edu-timeline">
+              <!-- EDITABLE GRADUATION YEAR -->
+              <span class="edu-grad-year">[Expected Graduation: 2026]</span>
+              <span class="edu-status-tag">Undergraduate Program</span>
+            </div>
+          </div>
+
+          <div class="edu-body-grid">
+            <!-- Relevant Coursework -->
+            <div>
+              <h4 class="edu-subheading">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="9 11 12 14 22 4"></polyline>
+                  <path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"></path>
+                </svg>
+                Relevant Coursework
+              </h4>
+              <div class="coursework-grid">
+                <div class="course-item">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span>Principles of Marketing</span>
+                </div>
+                <div class="course-item">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span>Financial Management & Accounting</span>
+                </div>
+                <div class="course-item">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span>Organizational Behaviour & Leadership</span>
+                </div>
+                <div class="course-item">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span>Managerial Economics</span>
+                </div>
+                <div class="course-item">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span>Business Communication & Ethics</span>
+                </div>
+                <div class="course-item">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span>Strategic Management</span>
+                </div>
+                <div class="course-item">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span>Operations & Supply Chain</span>
+                </div>
+                <div class="course-item">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span>Quantitative Techniques for Business</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Academic Achievements Placeholders -->
+            <div>
+              <h4 class="edu-subheading">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="8" r="7"></circle>
+                  <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+                </svg>
+                Academic Highlights
+              </h4>
+
+              <div class="academic-achievements-list">
+                <div class="achievement-bullet">
+                  <div class="bullet-icon">★</div>
+                  <div class="bullet-text">
+                    <strong>Academic Standing [Placeholder]</strong>
+                    <p>Consistent strong academic performance; Top percentile in Management and Marketing subjects.</p>
+                  </div>
+                </div>
+
+                <div class="achievement-bullet">
+                  <div class="bullet-icon">★</div>
+                  <div class="bullet-text">
+                    <strong>Campus Business Club [Placeholder]</strong>
+                    <p>Active participant in college commerce society and management events.</p>
+                  </div>
+                </div>
+
+                <div class="achievement-bullet">
+                  <div class="bullet-icon">★</div>
+                  <div class="bullet-text">
+                    <strong>Case Study Competitions [Placeholder]</strong>
+                    <p>Collaborated on intra-college case analysis challenges and presentations.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         6. ACHIEVEMENTS & CERTIFICATIONS SECTION
+         ========================================================================== -->
+    <section class="section section-alternate" id="achievements">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="8" r="7"></circle>
+              <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+            </svg>
+            Credentials & Recognition
+          </span>
+          <h2 class="section-title">Achievements and Certifications</h2>
+          <p class="section-subtitle">
+            Demonstrated commitment to continuous skill enhancement through professional certifications, workshops, and extracurricular engagements.
+          </p>
+        </div>
+
+        <div class="cert-grid">
+
+          <!-- 1. Business & Management Certification Placeholder -->
+          <div class="cert-card">
+            <div class="cert-top">
+              <span class="cert-type-pill">Certification</span>
+              <svg class="cert-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                <line x1="8" y1="21" x2="16" y2="21"></line>
+                <line x1="12" y1="17" x2="12" y2="21"></line>
+              </svg>
+            </div>
+            <h3 class="cert-title">Business & Management Certification</h3>
+            <p class="cert-issuer">Issuing Authority: [e.g., Coursera / Harvard Online / PMI]</p>
+            <p class="cert-desc">
+              Comprehensive module covering principles of business operations, project coordination, agile workflows, and stakeholder management.
+            </p>
+            <div class="cert-badge-placeholder">
+              <span>[Sample Placeholder - Insert your Certificate details]</span>
+            </div>
+          </div>
+
+          <!-- 2. Digital Marketing Course Placeholder -->
+          <div class="cert-card">
+            <div class="cert-top">
+              <span class="cert-type-pill">Marketing Course</span>
+              <svg class="cert-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path>
+                <path d="M13.73 21a2 2 0 0 1-3.46 0"></path>
+              </svg>
+            </div>
+            <h3 class="cert-title">Digital Marketing Fundamentals</h3>
+            <p class="cert-issuer">Issuing Authority: [e.g., Google Digital Garage / HubSpot]</p>
+            <p class="cert-desc">
+              Mastered foundational concepts in SEO, search marketing, social media metrics, conversion optimization, and email drip strategies.
+            </p>
+            <div class="cert-badge-placeholder">
+              <span>[Sample Placeholder - Insert your Certificate details]</span>
+            </div>
+          </div>
+
+          <!-- 3. College Presentations & Competitions -->
+          <div class="cert-card">
+            <div class="cert-top">
+              <span class="cert-type-pill">Competition</span>
+              <svg class="cert-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+              </svg>
+            </div>
+            <h3 class="cert-title">Inter-College Case Presentation</h3>
+            <p class="cert-issuer">Event: [Add Competition or College Fest Name]</p>
+            <p class="cert-desc">
+              Delivered a strategic solution proposal analyzing corporate turnaround strategies before a judging panel of faculty and industry mentors.
+            </p>
+            <div class="cert-badge-placeholder">
+              <span>[Sample Placeholder - Add Rank / Participation]</span>
+            </div>
+          </div>
+
+          <!-- 4. Workshops & Extracurriculars -->
+          <div class="cert-card">
+            <div class="cert-top">
+              <span class="cert-type-pill">Workshop</span>
+              <svg class="cert-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                <circle cx="9" cy="7" r="4"></circle>
+              </svg>
+            </div>
+            <h3 class="cert-title">Business Analytics & Excel Workshop</h3>
+            <p class="cert-issuer">Organizer: [Add Organizing Body / Institute]</p>
+            <p class="cert-desc">
+              Hands-on intensive seminar focused on advanced spreadsheet formulas, data visualization, business forecasting, and report automation.
+            </p>
+            <div class="cert-badge-placeholder">
+              <span>[Sample Placeholder - Add Workshop Name]</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         7. CONTACT SECTION
+         ========================================================================== -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+              <polyline points="22,6 12,13 2,6"></polyline>
+            </svg>
+            Get In Touch
+          </span>
+          <h2 class="section-title">Let's Connect & Collaborate</h2>
+          <p class="section-subtitle">
+            Open to discussing internship opportunities, business case projects, mentorship, and professional networking.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Contact Channels Info -->
+          <div class="contact-info-panel">
+            <p class="contact-lead-text">
+              I am actively seeking <strong>business management internships</strong>, <strong>marketing associate roles</strong>, and <strong>academic collaborations</strong>. Feel free to send a message through the form or reach out directly via email or LinkedIn.
+            </p>
+
+            <div class="contact-cards-stack">
+              <!-- Email Card -->
+              <div class="contact-item-card">
+                <div class="contact-icon-box">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                  </svg>
+                </div>
+                <div class="contact-item-details">
+                  <span class="contact-label">Email Address</span>
+                  <div class="contact-value">madhav.acharya@example.com</div>
+                </div>
+                <button class="contact-copy-btn" data-copy="madhav.acharya@example.com" title="Copy Email Address" aria-label="Copy Email Address">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                    <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                  </svg>
+                </button>
+              </div>
+
+              <!-- Phone Card (Optional placeholder) -->
+              <div class="contact-item-card">
+                <div class="contact-icon-box">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                  </svg>
+                </div>
+                <div class="contact-item-details">
+                  <span class="contact-label">Phone Number</span>
+                  <div class="contact-value">+91 [Add Phone Number]</div>
+                </div>
+                <button class="contact-copy-btn" data-copy="+91 9876543210" title="Copy Phone Number" aria-label="Copy Phone Number">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                    <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                  </svg>
+                </button>
+              </div>
+
+              <!-- LinkedIn Profile -->
+              <div class="contact-item-card">
+                <div class="contact-icon-box">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                    <rect x="2" y="9" width="4" height="12"></rect>
+                    <circle cx="4" cy="4" r="2"></circle>
+                  </svg>
+                </div>
+                <div class="contact-item-details">
+                  <span class="contact-label">LinkedIn Profile</span>
+                  <div class="contact-value">
+                    <a href="https://linkedin.com/in/madhav-acharya" target="_blank" rel="noopener noreferrer" style="color: var(--gold-hover); text-decoration: underline;">
+                      linkedin.com/in/madhav-acharya
+                    </a>
+                  </div>
+                </div>
+                <a href="https://linkedin.com/in/madhav-acharya" target="_blank" rel="noopener noreferrer" class="contact-copy-btn" title="Open LinkedIn" aria-label="Open LinkedIn">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                    <polyline points="15 3 21 3 21 9"></polyline>
+                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                  </svg>
+                </a>
+              </div>
+
+              <!-- Location (Optional) -->
+              <div class="contact-item-card">
+                <div class="contact-icon-box">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                  </svg>
+                </div>
+                <div class="contact-item-details">
+                  <span class="contact-label">Location</span>
+                  <div class="contact-value">[City, Country / e.g. New Delhi, India]</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Interactive Contact Form -->
+          <div class="contact-form-card">
+            <h3 style="font-size: 1.35rem; font-weight: 800; margin-bottom: 1.5rem; color: var(--navy-primary);">
+              Send a Direct Message
+            </h3>
+
+            <form id="contactForm" novalidate>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="contactName" class="form-label">Full Name *</label>
+                  <input type="text" id="contactName" class="form-input" placeholder="e.g., Sarah Jenkins" required />
+                  <div class="form-feedback"></div>
+                </div>
+
+                <div class="form-group">
+                  <label for="contactEmail" class="form-label">Email Address *</label>
+                  <input type="email" id="contactEmail" class="form-input" placeholder="name@company.com" required />
+                  <div class="form-feedback"></div>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="contactSubject" class="form-label">Subject *</label>
+                <input type="text" id="contactSubject" class="form-input" placeholder="e.g., Summer Internship Opportunity / Case Discussion" required />
+                <div class="form-feedback"></div>
+              </div>
+
+              <div class="form-group">
+                <label for="contactMessage" class="form-label">Your Message *</label>
+                <textarea id="contactMessage" class="form-textarea" placeholder="Hello Madhav, I came across your portfolio and would like to discuss..." required></textarea>
+                <div class="form-feedback"></div>
+              </div>
+
+              <button type="submit" id="contactSubmitBtn" class="btn btn-primary" style="width: 100%;">
+                <span>Send Message</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="22" y1="2" x2="11" y2="13"></line>
+                  <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                </svg>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==========================================================================
+       CASE STUDY DETAIL MODAL (Interactive Project Deep Dive)
+       ========================================================================== -->
+  <div class="modal-backdrop" id="projectModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-dialog">
+      <button class="modal-close-btn" id="modalCloseBtn" aria-label="Close Case Study Modal">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+      <div class="modal-content" id="modalBody">
+        <!-- Injected via JavaScript from projectData -->
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       FOOTER
+       ========================================================================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Col 1: Brand & Bio -->
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <div class="brand-monogram">MA</div>
+            <span>Madhav Acharya</span>
+          </div>
+          <p class="footer-desc">
+            BBA student committed to continuous learning, leadership, and analytical rigor. Aspiring to bridge corporate strategy with quantifiable business impact.
+          </p>
+          <div class="footer-social-links">
+            <a href="https://linkedin.com/in/madhav-acharya" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Madhav on LinkedIn" title="LinkedIn Profile">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                <rect x="2" y="9" width="4" height="12"></rect>
+                <circle cx="4" cy="4" r="2"></circle>
+              </svg>
+            </a>
+            <a href="mailto:madhav.acharya@example.com" class="social-btn" aria-label="Email Madhav" title="Email Madhav">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+            </a>
+            <a href="#home" class="social-btn action-download-resume" aria-label="Download Resume" title="Download Resume">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                <polyline points="14 2 14 8 20 8"></polyline>
+                <line x1="16" y1="13" x2="8" y2="13"></line>
+                <line x1="16" y1="17" x2="8" y2="17"></line>
+                <polyline points="10 9 9 9 8 9"></polyline>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Col 2: Quick Links -->
+        <div>
+          <h4 class="footer-heading">Quick Navigation</h4>
+          <ul class="footer-nav-list">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Madhav</a></li>
+            <li><a href="#skills">Core Competencies</a></li>
+            <li><a href="#projects">Sample Case Studies</a></li>
+            <li><a href="#education">Education & Coursework</a></li>
+            <li><a href="#contact">Get in Touch</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: Key Focus & Core Values -->
+        <div>
+          <h4 class="footer-heading">Professional Focus</h4>
+          <ul class="footer-nav-list">
+            <li style="color: #CBD5E1;">• Business Management & Operations</li>
+            <li style="color: #CBD5E1;">• Consumer Research & Brand Strategy</li>
+            <li style="color: #CBD5E1;">• Financial Reporting & Ratio Analysis</li>
+            <li style="color: #CBD5E1;">• Startup Modeling & Strategy</li>
+            <li style="color: #CBD5E1;">• Data-Driven Decision Making</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Bottom Bar -->
+      <div class="footer-bottom">
+        <div>
+          © <span id="currentYear"></span> Madhav Acharya. Built with professional navy & gold design standards.
+        </div>
+        <div>
+          <a href="#home" class="back-to-top-btn" aria-label="Back to Top">
+            <span>Back to top</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="18 15 12 9 6 15"></polyline>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/main.js"></script>
+</body>
+</html>
